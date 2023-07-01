@@ -15,4 +15,6 @@ Then I have "Flask and html " here we have "f.py" where I run our flask applicat
 
 Next I have "Project Report Document" where we have detailed explanation of our project as word file and in the word file I have mentioned introduction, approaches and solution, problem description, flowchart, block diagram, code explanation, hardware and software requirements, Literature survey, results, advantages and disadvantages, conclusions, future scope etc,.
 
+Then I have "SmartInternz Assignment-1,2,3" folder where I have three Assignments given by the SmartInternz during the training session with both "pdf" files and "ipynb" files.
+
 Last Here I have mention the project explanation video link as drive link: https://drive.google.com/file/d/11shU3i6AqccZDstosNd4HLgVBcAmMS81/view?usp=sharing

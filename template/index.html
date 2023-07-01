@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dropdown List Form</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body><br/>
+<h1><center>Smart Watch Price Predictor</center></h1>
+<br/>
+  <div class="container">
+    <h2>Know your Watch Price</h2>
+    <form name="fill" action="." method="post">
+
+      <label for="brand">Your Brand:</label>
+       <input type="text" id="brand" name="brand" required><br/><br/>
+
+       <label for="os">Your OS:</label>
+      <select id="os" name="os">
+        <option value="Wear OS">Wear OS</option>
+        <option value="Garmin OS">Garmin OS</option>
+        <option value="Fitbit OS">Fitbit OS</option>
+        <option value="Proprietary OS">Proprietary OS</option>
+        <option value="Tizen OS">Tizen OS</option>
+        <option value="watchOS">watchOS</option>
+        <option value="Unknown">Unknown</option>
+        <option value="other">other</option>
+      </select><br/><br/>
+
+      <label for="conn">Connectivity:</label>
+      <select id="conn" name="conn">
+        <option value="Bluetooth, Wi-Fi">Bluetooth, Wi-Fi</option>
+        <option value="Bluetooth, Wi-Fi, Cellular">Bluetooth, Wi-Fi, Cellular</option>
+        <option value="Bluetooth, Wi-Fi, GPS">Bluetooth, Wi-Fi, GPS</option>
+        <option value="Bluetooth, Wi-Fi, NFC">Bluetooth, Wi-Fi, NFC</option>
+        <option value="Bluetooth">Bluetooth</option>
+      </select><br/><br/>
+
+      <label for="dt">Display Type:</label>
+      <select id="dt" name="dt">
+        <option value="OLED">OLED</option>
+        <option value="Other">Other</option>
+        <option value="IPS LCD">IPS LCD</option>
+        <option value="LCD">LCD</option>
+        <option value="E-Ink">E-Ink</option>
+        <option value="Monochrome">Monochrome</option>
+        <option value="STN LCD">STN LCD</option>
+        <option value="Memory LCD">Memory LCD</option>
+      </select><br/><br/>
+
+      <label for="ds">Display Size (inches):</label>
+       <input type="text" id="ds" name="ds" required><br/><br/>
+
+      <label for="res">Resolution:</label>
+      <select id="res" name="res">
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+        <option value="Low">Low</option>
+        <option value="Unknown">Unknown</option>
+      </select><br/><br/>
+
+      <label for="wres">Water Resistance (meters):</label>
+      <select id="wres" name="wres">
+        <option value="50.0">50.0</option>
+        <option value="30.0">30.0</option>
+        <option value="100.0">100.0</option>
+        <option value="200.0">200.0</option>
+        <option value="1.5">1.5</option>
+        <option value="10.0">10.0</option>
+      </select><br/><br/>
+
+      <label for="bl">Battery Life (days):</label>
+       <input type="text" id="bl" name="bl" required><br/><br/>
+
+      <label for="hr">Heart Rate Monitor:</label>
+      <select id="hr" name="hr">
+        <option value="Yes">Yes</option>
+      </select><br/><br/>
+
+      <label for="gps">GPS:</label>
+      <select id="gps" name="gps">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select><br/><br/>
+
+      <label for="nfc">NFC:</label>
+      <select id="nfc" name="nfc">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select><br/><br/>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
